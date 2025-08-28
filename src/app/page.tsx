@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Home() {
   return (
     <>
@@ -15,25 +17,25 @@ export default function Home() {
       </header>
 
       <main>
-        <div className="nav-buttons">
-          <a href="/" className="nav-button active">
-            Home
-          </a>
-          <a href="/work" className="nav-button">
-            Work
-          </a>
-          <a href="/projects" className="nav-button">
-            Projects
-          </a>
-          <a href="/contact" className="nav-button">
-            Contact
-          </a>
-        </div>
+                  <div className="nav-buttons">
+            <Link href="/" className="nav-button active">
+              Home
+            </Link>
+            <Link href="/work" className="nav-button">
+              Work
+            </Link>
+            <Link href="/projects" className="nav-button">
+              Projects
+            </Link>
+            <Link href="/contact" className="nav-button">
+              Contact
+            </Link>
+          </div>
 
         <section className="section">
-          <h2>Hi! I'm Yash</h2>
+          <h2>Hi! I&apos;m Yash</h2>
           <p>
-            I’m a smart contract engineer who loves building DeFi protocols.
+            I&apos;m a smart contract engineer who loves building DeFi protocols.
             Most of my work has been focused on developing smart contracts for
             EVM-based chains.
           </p>
@@ -44,9 +46,9 @@ export default function Home() {
             development.
           </p>
           <p>
-            Lately, I've been expanding into other blockchain ecosystems like
+            Lately, I&apos;ve been expanding into other blockchain ecosystems like
             Sui and Aptos, experimenting with new smart contract paradigms and
-            understanding how different platforms approach programability in
+            understanding how different platforms approach programmability in
             decentralized systems.
           </p>
         </section>

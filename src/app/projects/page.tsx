@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Projects() {
   return (
     <>
@@ -10,10 +12,10 @@ export default function Projects() {
 
       <main>
         <div className="nav-buttons">
-          <a href="/" className="nav-button">Home</a>
-          <a href="/work" className="nav-button">Work</a>
-          <a href="/projects" className="nav-button active">Projects</a>
-          <a href="/contact" className="nav-button">Contact</a>
+          <Link href="/" className="nav-button">Home</Link>
+          <Link href="/work" className="nav-button">Work</Link>
+          <Link href="/projects" className="nav-button active">Projects</Link>
+          <Link href="/contact" className="nav-button">Contact</Link>
         </div>
 
         <section className="section">
