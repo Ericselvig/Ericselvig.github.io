@@ -40,6 +40,14 @@ export default function Work() {
             <li>Worked with ERC standards (ERC-721, ERC-20, ERC-1967) and Merkle Trees for data integrity.</li>
             <li>Authored comprehensive test suites (unit, integration, fork, invariant) and deployment automation scripts.</li>
           </ul>
+
+          <h3>Blockchain Developer (Part-Time)</h3>
+          <p className="work-org"><strong>Freelance</strong></p>
+          <ul>
+            <li>Built a staking contract for a DeFi protocol managing a 7-figure TVL.</li>
+            <li>Developed multiple types of funds for an AI-agent-based crypto fund manager.</li>
+            <li>Developed bots that successfully recovered ~$100K USD in funds and optimized capital efficiency.</li>
+          </ul>
         </section>
       </main>
     </>

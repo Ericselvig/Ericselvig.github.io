@@ -35,7 +35,7 @@ export default function Home() {
         <section className="section">
           <h2>Hi! I&apos;m Yash</h2>
           <p>
-            I&apos;m a smart contract engineer who loves building DeFi protocols.
+            I&apos;m a smart contract engineer who loves studying and building DeFi protocols.
             Most of my work has been focused on developing smart contracts for
             EVM-based chains.
           </p>
@@ -51,6 +51,15 @@ export default function Home() {
             understanding how different platforms approach programmability in
             decentralized systems.
           </p>
+          
+          <p><strong>Right now my interests are in:</strong></p>
+          <ul>
+            <li>AMMs &amp; Uniswap V4 Hooks — custom hooks, liquidity strategies, etc.</li>
+            <li>Cross-Chain protocols — intents, bridges, etc.</li>
+            <li>DeFi on non-EVM chains — new DeFi protocols on chains like Sui and Aptos.</li>
+          </ul>
+          
+          <p>On this website you can find my <Link href="/work">work experience</Link>, <Link href="/projects">personal projects</Link>, and ways to <Link href="/contact">get in touch</Link> with me.</p>
         </section>
       </main>
     </>
